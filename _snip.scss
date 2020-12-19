@@ -1,0 +1,15 @@
+.Snippets{
+ margin-top:5rem;
+ @include flex(column,center,center);
+ h1{
+  font-family: 'bai-700';
+  font-size: 2rem;
+  color:$DarkGrayishBlue;
+ }
+ p{
+  text-align: center;
+  margin-top:1.2rem;
+  color:$DarkGrayishBlue;
+  font-family: 'bai-400';
+ }
+}

@@ -1,0 +1,39 @@
+.container{
+ margin-top:5rem;
+ @include flex(row,space-between,center);
+ margin-right: 2rem;
+ margin-left: 2rem;
+ flex-wrap: wrap;
+
+
+}
+
+.container .box{
+ @include flex(column,center,center);
+
+
+}
+
+
+.container .box p .visible{
+ visibility: hidden;
+}
+
+.container .box p{
+ text-align: center;
+}
+
+.container .box .first{
+ font-size: 3rem;
+ color:$DarkGrayishBlue;
+}
+
+.container .box h2{
+ padding:2rem;
+ font-family: 'bai-700';
+ color:$DarkGrayishBlue;
+}
+.container .box p{
+ font-family: 'bai-400';
+ color:$GrayishBlue;
+}

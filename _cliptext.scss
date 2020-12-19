@@ -1,0 +1,55 @@
+.clip-text{
+ margin-top:5rem;
+ @include flex(column,center,center);
+ padding: 5rem;
+ margin-bottom: 5rem;
+ height: 50vh;
+}
+
+.clip-text #clip1 h2{
+ font-family: 'bai-700';
+ font-size: 3rem;
+ font-weight: 900;
+ color:$DarkGrayishBlue;
+}
+
+.clip-text #clip-2 p{
+ font-family: 'bai-400';
+ color:gray;
+ font-size: 1rem;
+ margin-top: 1rem;
+ text-align: center;
+}
+.clip-text #clip-buttons{
+ @include flex(row,center,center);
+}
+.clip-text #clip-buttons #clip-b,
+.clip-text #clip-buttons #clip-b1{
+ padding:1rem 3rem;
+ margin-top:2rem;
+ margin-left: 2rem;
+ border-radius: 25px;
+ cursor: pointer;
+ color:white;
+}
+.clip-text #clip-buttons #clip-b{
+ background-color: rgb(27, 218, 176);
+
+}
+.clip-text #clip-buttons #clip-b1{
+ background-color:rgb(110, 110, 238);
+
+}
+
+
+.attribution{
+ margin-top:5rem;
+ text-align:center;
+}
+
+.attribution p a{
+ text-decoration: none;
+}
+.attribution p a:hover{
+ text-decoration: underline;
+}

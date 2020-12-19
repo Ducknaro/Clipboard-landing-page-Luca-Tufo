@@ -1,0 +1,39 @@
+.computer-div{
+ @include flex(row,space-between,center);
+ margin-top:5rem;
+ flex-wrap: wrap;
+}
+
+.computer-div .mac-box{
+ display: flex;
+ flex: 1 1 20rem;
+ img{
+  width: 90%;
+ }
+}
+
+.computer-div .mac-text{
+ display: flex;
+ flex: 1 1 20rem;
+ flex-direction: column;
+}
+
+.computer-div .mac-text .first-text,
+.computer-div .mac-text .second-text,
+.computer-div .mac-text .third-text{
+ padding: 3rem;
+}
+
+.computer-div .mac-text .first-text h2,
+.computer-div .mac-text .second-text h2,
+.computer-div .mac-text .third-text h2{
+ font-family: 'bai-700';
+ color: $DarkGrayishBlue;
+}
+
+.computer-div .mac-text .first-text p,
+.computer-div .mac-text .second-text p,
+.computer-div .mac-text .third-text p{
+ margin-top:1rem;
+ color: $GrayishBlue;
+}

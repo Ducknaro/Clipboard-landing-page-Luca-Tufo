@@ -1,0 +1,25 @@
+.clipboard{
+ @include flex(column,center,center);
+ margin-top:5rem;
+}
+.clipboard .clipboard-text h1,
+.clipboard .clipboard-text2 h1{
+ text-align: center;
+ font-family: 'bai-700';
+ color:$DarkGrayishBlue;
+}
+.clipboard .clipboard-text p,
+.clipboard .clipboard-text2 p{
+ padding:2rem;
+ font-family: 'bai-400';
+ color:$GrayishBlue;
+}
+.clipboard .clipboard-text2 h1,
+.clipboard .clipboard-text2 p{
+ text-align: center;
+}
+
+.clipboard .clipboard-photo{
+ max-width: 100%;
+}
+

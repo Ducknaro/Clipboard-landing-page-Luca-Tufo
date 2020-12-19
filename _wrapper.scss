@@ -1,0 +1,50 @@
+body{
+ font-size:$font;
+ background-image: url('../clipboard-landing-page-master/images/bg-header-desktop.png');
+ background-repeat: no-repeat;
+}
+
+.wrapper{
+ @include flex(column,center,center);
+ width: 100%;
+ 
+}
+.wrapper #logo{
+ padding: 3rem;
+
+}
+.wrapper .header h1{
+ font-family: 'bai-700';
+ font-size: 2rem;
+ font-weight: 900;
+ color:$DarkGrayishBlue;
+
+}
+.wrapper .header p{
+ font-family: 'bai-400';
+ color:gray;
+ font-size: 1rem;
+ margin-top: 1rem;
+ text-align: center;
+}
+
+.wrapper-buttons{
+ @include flex(row,center,center);
+}
+
+.wrapper-buttons #ios-button,
+.wrapper-buttons #mac-button{
+ padding:1rem 3rem;
+ margin-top:2rem;
+ margin-left: 2rem;
+ border-radius: 25px;
+ cursor: pointer;
+ color:white;
+}
+.wrapper-buttons #ios-button{
+ background-color: rgb(27, 218, 176);
+}
+.wrapper-buttons #mac-button{
+ background-color:rgb(110, 110, 238);
+}
+
